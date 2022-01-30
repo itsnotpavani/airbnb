@@ -1,0 +1,83 @@
+.info{background: url("https://cdn.dribbble.com/users/735228/screenshots/3231286/animation_1.gif");
+      background-size: cover;
+        max-height:68vh;
+        max-width:90vh;
+        height:68vh;
+        width:90vh;
+        position: relative;
+        background-repeat: no-repeat;
+        left:10%;
+        color:white;
+         overflow-x: hidden;
+       border-radius: 20px;
+       top:5%;
+      box-shadow:5px 0px 20px 10px rgba(0,0,0,0.3);
+     transform-style: preserve-3d;
+     }
+
+
+.info-card h1{letter-spacing: 1.5px;
+  word-spacing: 3px;
+  font-size: 1.5rem;
+  position: relative;
+  top:5%;
+  left:3%;
+ max-width: 400px;}
+ p{font-weight: 500;
+  font-size: 0.7rem;
+  max-width: 300px;
+  position: relative;
+  left:3%;
+  top:10%;
+
+  }
+
+  .explore{
+    background-color: #ed6d80;
+    color:white;
+    border:none;
+    padding:10px;
+    border-radius: 3rem;
+    font-weight: 700;
+    font-size: 0.5;
+    position: relative;
+    top:17%;
+    left:5%;
+    cursor:pointer;
+    transition: background-color 0.5s;
+
+  }
+
+.info-card{color:grey;
+           background-color: white;
+           box-shadow:5px 5px 20px 10px rgba(0,0,0,0.2);
+           width:40%;
+           height: 34%;
+           border-radius: 10px;
+           position: relative;
+           top:65%;
+           left:40%;
+         }
+
+  .explore:hover{color:grey;
+               background-color: white;
+               border:1px solid grey;}
+  .banner{background: url("https://www.maxpixel.net/static/photo/1x/House-Mountains-Lake-Clouds-Cabin-Wood-Boat-Fog-5437102.jpg");
+          background-size: cover;
+          background-position: 0% -50%;
+          height:130vh;
+          width:200vh;
+
+
+          background-repeat: no-repeat;
+
+        }
+.container{height:80%;
+          width:60%;
+          position: relative;
+          left:10%;
+          top:15%;
+          }
+.row2{display: flex;
+      flex-direction: row;}
+h9{opacity: 100;}

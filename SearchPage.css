@@ -1,0 +1,23 @@
+.viewBookings{padding: 1rem;
+              position: absolute;
+              left:85%;
+              top:6rem;
+              z-index: 100;
+                }
+.list{background-color: white;
+
+  position: absolute;
+
+  left:72%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  top:8rem;
+
+  }
+li{color:grey;
+   font-weight: 700;}
+.list{list-style-type: none;}
+.closeIcon{left:73%;
+         top:9rem;
+        position: absolute;
+       z-index: 1;}

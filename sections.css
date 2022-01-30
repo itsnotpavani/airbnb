@@ -1,0 +1,60 @@
+img{height:20rem;
+         width:30rem;
+         object-fit: cover;
+         border-radius: 20px;
+         margin-right: 5rem;
+         }
+
+.main{display:flex;
+      flex-direction: row;
+      justify-content: space-around;
+      margin-top: 6rem;
+      margin-left: 2rem;
+    color:grey;
+    width:75%;
+    }
+.info2 h1{margin-bottom: 3rem;}
+h5{margin-bottom:  0.3rem;}
+h4{margin-bottom: 0.5rem;
+   color:black;}
+hr{margin-top: 3rem;
+   width: 50%;
+   position: relative;
+   left:10%;
+   }
+.bottom{margin-top: 6rem;
+       display: flex;
+       justify-content: space-around;}
+.Book:hover{cursor: pointer;
+            opacity: 90%;}
+            .Booking{
+              z-index:1;
+              background-color: rgba(0,0,0,0.6);
+              filter:blur();
+              width:50vh;
+              height:60vh;
+              display:flex;
+              flex-direction: column;
+              justify-content: space-around;
+              color:white;
+              font-weight: 400;
+              padding: 10vh;
+              border-radius: 20px;
+              position: relative;
+              left:20rem;
+              top:5rem;
+
+
+
+            }
+            form input{background-color: rgba(0,0,0,0.6);
+                 border-radius: 3rem;
+                 border: 1px solid white;
+                 outline:0;
+                 color:white;
+                 padding: 1rem;
+               }
+            .selectGuests{background-color: rgba(0,0,0,0.6);
+             color:white;border-radius: 3rem;
+             border: 1px solid white;
+           padding: 1rem;}

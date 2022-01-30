@@ -1,0 +1,16 @@
+.footer{background-color: rgba(0,0,0,0.7);
+       color:white;
+      display: flex;
+     flex-direction: column;
+     }
+.FollowUs{display: flex;
+        flex-direction: row;
+        justify-content:center;
+        margin-bottom: 1rem;
+        margin-top: 1rem;}
+
+.copyright{display: flex;
+        flex-direction: row;
+        justify-content: center;
+       align-items: center;
+       margin-bottom: 1rem;}

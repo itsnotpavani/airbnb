@@ -1,0 +1,143 @@
+.logo{
+  width:100px;
+  object-fit: contain;
+
+}
+.header{display:flex;
+       flex-direction: column;
+       justify-content: space-around;
+       background-color: transparent;
+       z-index: 10;
+       position: fixed;
+       }
+.row2{position: relative;
+
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     width:100%;
+     }
+.row1{
+  display:flex;
+  justify-content:space-between;
+  flex-direction: row;
+  align-items: center;
+  height:80px;
+  padding-top:10px;
+  margin-bottom: 1rem;
+
+}
+.section{
+  display:flex;
+  justify-content:space-around;
+  flex-direction: column;
+  width:95%;
+  top:0;
+  position:fixed;
+  padding-left: 20px;
+  padding-right: 20px;
+
+
+
+
+}
+.header_center{
+  display: flex;
+  align-items: center;
+  border-radius: 30px;
+  border: 1px solid white;
+  max-width: fit-content;
+  color:white;
+  padding:10px;
+}
+  .header_right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 2rem;
+    padding-right: 2rem;
+   align-items: center;}
+
+.header_center>input{
+  border: none;
+  width:250px;
+  padding:10px;
+  outline: 0;
+  background-color: transparent;
+  color:white;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
+.newSection{background-color: white;}
+
+.account{background-color: white;
+
+         border-radius: 10px;
+         width:10rem;
+         height: 15rem;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: space-around;
+
+
+         }
+button{
+  background-color:#FD5B61;
+  color:white;
+  font-weight: 800;
+  border: none;
+  padding: 10px;
+  margin:5px;
+
+
+  border-radius: 10px;
+}
+
+.register,.signIn{
+  z-index:1;
+  background-color: rgba(0,0,0,0.6);
+  filter:blur();
+  width:50vh;
+  height:60vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-around;
+  color:white;
+  font-weight: 400;
+  padding: 10vh;
+  border-radius: 20px;
+  position: absolute;
+  left:30rem;
+  top:30%;
+}
+.register,.signIn input{background-color: rgba(0,0,0,0.6);
+     border-radius: 3rem;
+     border: 1px solid white;
+     outline:0;
+     color:white;
+     padding: 1rem;
+   }
+
+
+.account div{display: flex;
+             justify-content: center;}
+
+.submit{
+  background-color: none;
+  border: 2px solid white;
+  padding: 5px;
+}
+
+.submit:hover{background-color: white;
+  color:black;
+  cursor: pointer;}
+  .greeting{
+    padding-right: 1rem;
+  }
+
+  h9{color:white;}
+  .searchIcon{color:white;}
+  .searchPlace::placeholder{color:white;}
+  .languageIcon,.arrowDown,.accountIcon{color:white;}
